@@ -1,3 +1,3 @@
 # Winter-Web-17
 
-Head over [here](https://github.com/dylan007/winter-resources/wiki/Welcome) for further instructions.
+Head over [here](https://github.com/EkamWalia/Winter-Web-17/wiki) for further instructions.
