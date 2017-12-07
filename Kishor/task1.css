@@ -6,18 +6,8 @@ body
 top : 50%;
 left : 50%;
 transform: translateX(-50%) translateY(-50%);
-font-family: "open sans light";
-font-size: 40;
+font-size: 40px; 
+font-family: open sans;
 font-weight: lighter;
 }
 
-#text2
-{
-top : 60%;
-left : 50%;
-transform: translateX(-50%) translateY(-50%);
-position: absolute;
-font-family: "open sans light";
-font-size: 40;
-font-weight: lighter;
-}
