@@ -1,0 +1,14 @@
+body{
+	background-color: lavender;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-family: open sans light;
+	font-size: 40px;
+}
+
