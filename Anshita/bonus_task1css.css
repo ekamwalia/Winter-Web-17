@@ -1,0 +1,14 @@
+body
+{
+	background-color: #E6E6FA;
+}
+.flex-container 
+{
+  	display: flex;
+  	height: 100%;
+  	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	font-family: open sans;
+	font-size: 40px;
+}
