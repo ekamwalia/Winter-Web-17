@@ -1,0 +1,9 @@
+body{
+font-family:open sans light;
+font-size:40px;
+font-shadow:40px
+}
+@font-face{
+font-family:"Open sans light";
+src:url(OpenSans-Light.ttf) format('opentype');
+}
