@@ -1,0 +1,20 @@
+
+.container-1 {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	color: #6B4A78;
+	font-family:'Open Sans';
+	font-size: 40px;
+	justify-content: center;
+	height: 750px;
+	align-content: center;
+    
+
+}
+
+ .box {   
+    text-align: center; /*for individual lines in <p>*/
+}
+
+
