@@ -1,0 +1,30 @@
+
+body
+{
+	background-color: lavender;
+	height: 100vh;
+}
+	.container
+	{
+		display: flex;
+		flex-direction: column;		
+		align-items: center;
+		justify-content: center;
+		background-color: #C9C6CE;
+		height: 100%;
+		font-size:40px;
+	}
+
+	.container div
+	{
+		border: 1px #ccc solid;
+		padding: 10px;
+	}
+
+	.box-1
+	{
+		font-family:open sans;
+		background-color: #EEEDE8;
+	}
+
+	
