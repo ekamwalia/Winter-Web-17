@@ -1,19 +1,21 @@
 
 .container-1 {
 	display:flex;
-	align-items: center;
-	flex-direction: column;
 	color: #6B4A78;
 	font-family:'Open Sans';
 	font-size: 40px;
 	justify-content: center;
 	height: 750px;
-	align-content: center;
+	align-items: center;
     
 
 }
-
- .box {   
+.container-1 div{
+	border:1px #ccc solid;
+    padding:10px;
+}
+ .box { 
+ 	flex-basis: 20% ; 
     text-align: center; /*for individual lines in <p>*/
 }
 
