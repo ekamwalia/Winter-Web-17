@@ -1,0 +1,33 @@
+body{
+	background-image: url("BackgroundUnited.jpg");
+	max-width: 100%;
+	max-height: 100%;
+	font-family:Lucida Sans Unicode;
+	color:white;
+	background-size: cover;
+}
+.heading{
+	border:2px solid yellow;
+	text-align: center;
+	font-size: 40px;
+	font-style: bold;
+	font-family: Comic Sans MS;
+}
+.contents{
+	border:2px solid black;
+	font-family: Verdana;
+	padding-left:160px;
+}
+a:link{
+	color:yellow;
+}
+a:hover{
+	color:green;
+}
+a:visited{
+	color:black;
+}
+h2{
+	color:orange;
+	font-size:40px;
+}
