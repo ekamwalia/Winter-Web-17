@@ -1,22 +1,64 @@
 
 .container-1 {
 	display:flex;
-	color: #6B4A78;
-	font-family:'Open Sans';
-	font-size: 40px;
-	justify-content: center;
+	font-family:'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	justify-content: space-between;
 	height: 750px;
+
 	align-items: center;
+
     
 
 }
 .container-1 div{
-	border:1px #ccc solid;
-    padding:10px;
 }
- .box { 
- 	flex-basis: 20% ; 
-    text-align: center; /*for individual lines in <p>*/
+.container-2 {
+	display:flex;
+	font-family:'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	justify-content: center;
+	height: 750px;
+
+	align-items: center;
+
+    
+
+}
+.container-2 div{
+}
+.box:hover,.box:active,.box-1:hover,.box-1:active {
+	color: #fff;
+	background-color: #31A6ff;
+    
+}
+a {
+	text-decoration: inherit;
+}
+.box:link,.box:visited,.box-1:link,.box-1:visited {
+	text-decoration: none;
+}
+ .box {  
+ 	border:2px #31A6ff solid;
+	border-radius: 50px;
+    padding:10px 70px;
+ 	color: #31A6ff;
+    text-align: center;
+    transition-duration: 300ms;
+    width: 450px;
+
+}
+ .box-1 {  
+ 	border:2px #31A6ff solid;
+	border-radius: 50px;
+    padding:10px 70px;
+ 	color: #31A6ff;
+    text-align: center;
+    transition-duration: 300ms;
+    width: 450px;
+
 }
 
 
