@@ -1,0 +1,56 @@
+body
+{
+	background-color:#F5F5F5;
+	font-family: "Raleway",sans serif;
+	line-height: 200%;
+	font-size: 20px;
+}
+img
+{
+	max-height=100%;
+	width=auto;
+}
+a
+{
+	color:black;
+	text-decoration: none;
+}
+#Menu
+{
+	margin:30px;
+	
+}
+#wiki
+{
+	padding:50px;
+	text-align: center;
+	background-color: #F0F0F0
+
+}
+#music
+{
+
+	background-color: #E8E8E8;
+	padding:50px;
+	text-align: center;
+
+}
+#wallpapers
+{
+	background-color: #E0E0E0;
+	padding: :50px;
+	text-align: center;
+}
+#button:link, #button:visited
+{
+	background-color: #B8B8B8;
+	color:white;
+	padding: 14px 25px;
+	text-align:center;
+	text-decoration: none;
+
+}
+#button:hover, #button:active
+{
+	background-color: #808080
+}
