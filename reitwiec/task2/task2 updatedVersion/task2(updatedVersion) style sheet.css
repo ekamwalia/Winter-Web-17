@@ -1,0 +1,291 @@
+
+/*.container-1 {
+	display:flex;
+	font-family:'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	justify-content: space-between;
+	height: 750px;
+
+	align-items: center;
+
+    
+
+}
+.container-1 div{
+}
+.container-2 {
+	display:flex;
+	font-family:'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	justify-content: center;
+	height: 750px;
+
+	align-items: center;
+
+    
+
+}
+.container-2 div{
+}
+.box:hover,.box:active,.box-1:hover,.box-1:active {
+	color: #fff;
+	background-color: #31A6ff;
+    
+}
+a {
+	text-decoration: inherit;
+}
+.box:link,.box:visited,.box-1:link,.box-1:visited {
+	text-decoration: none;
+}
+ .box {  
+ 	border:2px #31A6ff solid;
+	border-radius: 50px;
+    padding:10px 70px;
+ 	color: #31A6ff;
+    text-align: center;
+    transition-duration: 300ms;
+    width: 450px;
+
+}
+ .box-1 {  
+ 	border:2px #31A6ff solid;
+	border-radius: 50px;
+    padding:10px 70px;
+ 	color: #31A6ff;
+    text-align: center;
+    transition-duration: 300ms;
+    width: 450px;
+
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.imgs{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.intro{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	background-image: url("friends.png");
+	/*background:url(https://orig00.deviantart.net/da83/f/2016/001/5/3/friends_by_reverendtundra-d9mal6l.png) no-repeat 50% 50%;*/
+	display: table;
+	top:0;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+.part-1{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg2.png");
+}
+.part-2{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg3.png");}
+.part-3{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg4.png");
+}
+.part-4{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg5.png");
+}
+.part-5{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg3.png");
+}
+.part-6{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg4.png");
+}
+.part-7{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	background-image: url("pagebg5.png");
+}
+
+ .main{
+ 	padding-top: 30px;
+	max-width: 900px;
+	margin: 0 auto 20px;
+
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1{
+	font-family: 'Raleway',sans-serif;
+	color:#f9f3f4;
+	text-shadow:0px 0px 300px #000;
+	font-size: 400%;
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 10px #fff;
+}
+.main h1{
+	font-family: 'friends',sans-serif;
+	color:#fff;
+	text-shadow:0px 0px 300px #000;
+	font-size: 400%;
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #fff;
+      -webkit-fill-color: #fff;
+      text-shadow: 1px 0px 10px #fff;
+}
+.imgs2 {
+	padding-left: 200px;
+	
+}
+
+.content h1:hover{
+	
+}
+
+a {
+	text-decoration: inherit;
+}
+
+.btn {
+
+	border-radius: 9px;
+	font-family: "friends","Oswald",sans-serif;
+	color: #000;
+	font-size: 335%;
+	padding: 10px 20px;
+	border: solid #000 6px;
+	text-transform: uppercase;
+	transition-duration: 300ms;
+	/*background-color: #49497d;*/
+
+}
+
+.btn:hover{
+
+	color:#fff;
+	border: solid #fff 6px;
+	/*background-color: #a3a3cc;*/
+}
+
+p{
+	max-width: 600px;
+	margin: 0 auto 20px;
+	font-size: 160%;
+	line-height: 210%;
+	font-family: 'Montserrat';
+	color: #adb9ca;
+}
+.btn-2-1, .btn-2-2, .btn-2-3, .btn-2-4, .btn-2-5, .btn-2-6{
+
+	border-radius: 9px;
+	font-family: "Oswald",sans-serif;
+	color: #f9f3f4;
+	font-size: 100%;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition-duration: 200ms;
+	background-color: #adb9ca;
+	margin-bottom: 50px;
+
+}
+
+.btn-2-1:hover{
+
+	color:#fff;
+	background-color: #dc153d;
+
+}
+.btn-2-2:hover{
+
+	color:#fff;
+	background-color: #ffd700;
+
+}
+.btn-2-3:hover{
+
+	color:#fff;
+	background-color: #00bfff;
+
+}
+.btn-2-4:hover{
+
+	color:#fff;
+	background-color: #dc153d;
+
+}
+.btn-2-5:hover{
+
+	color:#fff;
+	background-color: #ffd700;
+
+}
+.btn-2-6:hover{
+
+	color:#fff;
+	background-color: #00bfff;
+
+}
+.para{
+	color:#f9f3f4;
+	text-shadow:1px 0px 5px #000;
+
+	font-family: "Montserrat";
+	font-size: 120%;
+	display: table;
+
+}
