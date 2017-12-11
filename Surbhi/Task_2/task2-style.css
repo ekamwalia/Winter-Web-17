@@ -1,0 +1,144 @@
+body{
+	background-color: #000000;
+	color: white;
+	
+}
+h2{
+	padding:10px;
+	font-family: code light;
+	font-size: 50px;
+}
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+h3 { 
+   position: absolute;
+   
+   left: 0; 
+   width: 100%; 
+}
+h3 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   opacity:0.5;
+   padding: 10px; 
+}
+h4{
+	text-align: right;
+	font-size: 30px;
+	font-family: code light;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+p{
+	text-align: justify;
+	
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size:30px;
+}
+img{
+	float:left;
+	padding:5px;
+	height:500px;
+}
+	.main{
+		background-image: url("group2.jpg");
+		background-repeat: repeat-y;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.title{
+		
+		display: flex;
+		flex-direction: column;		
+		align-items: top;
+		justify-content: center;
+		font-family: friends;
+		
+		
+		padding:10px;
+		height: 100%;
+		
+	}
+	.box1{
+		display: inline-block;
+		text-align: center;
+		background-color: black;
+		opacity: 0.75;
+		text-align: center;
+		font-size:50px;
+		
+	}
+	.box2{
+		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
+		align-content: space-around;
+	}
+	.branch{
+		background-color: black;
+		margin:15px;
+		padding:10px;
+		opacity: 0.85;
+		
+		height: 15%;
+		font-size: 30px;
+		
+	}
+	.data{
+		background-color: black;
+		display: flex;
+		flex-direction: column;	
+		flex-wrap: wrap;		
+		align-items: top;
+		justify-content: center;
+		
+	}
+	.container
+	{
+		background-color: black;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: flex-start;
+		
+		height: 100%;
+		border: 1px groove;
+		margin:25px;
+		padding:10px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.head{
+		font-weight: 900;
+		background-color: black;
+		margin:15px;
+		padding:10px;
+		border:1px inset silver;
+		font-size: 50px;
+		font-family: code light;
+		
+	}
+	.content{
+		background-color: black;
+		margin:15px;
+		padding:10px;
+		border:1px inset silver;
+		font-size: 20px;
+		font-family: ariel;
+		text-align:  justify;
+		align-self: left;
+	}
