@@ -1,6 +1,10 @@
 body{
 	background-color: lavender;
 }
+p{
+  padding:10px;
+}
+
 .container{
 	height: 100vh;
 	display: flex;
