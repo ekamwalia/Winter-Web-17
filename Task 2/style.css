@@ -1,0 +1,113 @@
+html, body, figure, section {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+#top-nav {
+    display: flex;
+    flex: wrap;
+}
+
+.card {
+    position: relative;
+}
+
+.card > img {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.number {
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 1.5em;
+    height: 2.5em;
+    padding-top: 5px;
+}
+
+.text {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+    -ms-transform: translate(-30%, -50%);
+}
+
+footer {
+    background-color: silver;
+    line-height: 3em;
+    text-align: center;
+}
+
+#plant {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color: tomato;
+    border-radius: 2px;
+}
+
+section {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+}
+
+.section-container {
+    min-width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.section-link {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-family: 'Economica', sans-serif;
+    font-variant: bold;
+    flex-grow: 1;
+    border-bottom: 1px solid darkslategray;
+    font-size: 50px;
+    background-color: orangered;
+    color: white;
+    transition: .5s ease;
+}
+
+.section-link:hover {
+    background-color: transparent;
+}
+
+.mainimage {
+    height: auto;
+    min-width: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
