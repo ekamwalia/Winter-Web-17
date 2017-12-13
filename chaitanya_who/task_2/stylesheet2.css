@@ -1,0 +1,60 @@
+html, body {
+			background-color: skyblue;
+            text-align: left;
+
+        }
+			a:link,visited {
+		    background-color: #f44336;
+		    color: white;
+		    font-family: 'Open Sans', 300;
+		    padding: 14px 25px;
+		    text-align: center; 
+		    text-decoration: none;
+		    display: inline-block;
+		    align-items: left;
+		}
+		img {
+			width: 500px;
+			height: 300px;
+
+		}
+
+
+		/* mouse over link */
+		a:hover {
+		    color: hotpink;
+		}
+
+		/* selected link */
+		a:active {
+		    color: blue;
+		}      
+
+
+
+
+       	h1{
+        	
+        	font-family: 'Open Sans', 400;
+        }
+        body p{
+            font-family: 'Open Sans', 300;
+            font-size: 20px;
+
+        }
+        
+
+.container{
+	display: flex;
+	flex-direction: column;
+  	/*justify-content: center;*/
+  	align-content: center;
+  	align-items: center;
+  	text-align: center;
+  	height: 1500px;
+  	border: 25px blue;
+    font-family: 'Open Sans';
+    font-size: 40px; 
+    
+   
+    }     
