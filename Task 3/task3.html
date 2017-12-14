@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>
+Task 3
+</title>
+<style>
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+input:focus:invalid {
+  outline: none;
+}
+#form1
+{
+position:relative;
+left:10%;
+color:white;
+
+}
+#form2
+{
+position:relative;
+left:10%;
+}
+#midd
+{
+left: 40%;
+position:absolute;
+background: url('http://www.publicdomainpictures.net/pictures/80000/velka/blue-flames-of-fire.jpg') center no-repeat;
+width: 300px;
+height: 600px;
+box-shadow: 5px 10px #000000;
+}
+</style>
+<script type="text/javascript">
+function validate()
+{
+var pass= document.getElementById("Epass").value;
+var cpass= document.getElementById("Cpass").value;
+if(pass!=cpass)
+{
+alert('Passwords do not match');
+return false;
+}
+return true;
+}
+function Validate()
+{
+var pass= document.getElementById("Epass").value;
+var paswd=  /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]$/;  
+if(pass.value.match(paswd))   
+{   
+return true;  
+}  
+else  
+{   
+alert('Please include a numeric, special character, Capital')  
+return false;  
+}
+}
+</script>
+</head>
+<body background="https://orig00.deviantart.net/312a/f/2013/042/c/3/gradient_toshiba_background_by_daproba-d5uo24e.png">
+<div id="midd">
+<form method="get" id="form1">
+<br>
+<input type="text" name="Fname" placeholder="First name" required>
+<br>
+<br>
+<input type="text" name="Lname" placeholder="Last name" required>
+<br>
+<br>
+<input type="password" name="Epass" placeholder="Enter Password" required minlength="6">
+<br>
+<br>
+<input type="password" name="Cpass" placeholder="Confirm password" required minlength="6">
+<br>
+<br>
+<input type="email" name="Eid"v placeholder="Enter Email ID" required>
+<br>
+<br>
+<text> Select Gender </text>
+<br>
+Male<input type = "radio" name = "subject" value = "m"> 
+Female<input type = "radio" name = "subject" value = "f"> 
+Other<input type = "radio" name = "subject" value = "o">
+<br>
+<br>
+Date Of Birth
+<br>
+<input type="date" name="bday" required>
+<br>
+<br>
+<select name = "dropdown" placeholder="Select" required>
+            <option value="SS" selected>Select Semster</option>
+            <option value = "I">I</option>
+	    <option value = "II">II</option>
+            <option value = "III">III</option>
+	    <option value = "IV">IV</option>
+	    <option value = "V">V</option>
+            <option value = "VI">VI</option>
+            <option value = "VII">VII</option>
+            <option value = "VIII">VIII</option>
+</select>
+<br>
+<br>
+<textarea name="message" rows="10" cols="30" placeholder="Describe yourself">
+</textarea>
+<br>
+<br>
+</form>
+<button id="form2" type="submit" form="form1" value="Submit" onclick="validate()&&Validate()">Submit</button>
+</div>
+</body>
+</html>
