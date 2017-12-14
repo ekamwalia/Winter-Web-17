@@ -1,0 +1,13 @@
+body{
+	background-image: url("https://wallpapercave.com/wp/FLVWgyq.jpg");
+	background-size: cover;
+}
+legend{
+	font-family: Courier;
+}
+input:invalid{
+	 box-shadow: 0 0 3px 3px red;
+}
+input:valid{
+	 box-shadow: none;
+}

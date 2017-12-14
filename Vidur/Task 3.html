@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+	<link href="task 3.css" rel="stylesheet" type="text/css">
+	<title>First Task</title>
+</head>
+
+<body>
+<h1 style="font-family: cursive;text-align: center;color: yellow">Register for the football trials NOW!</h1><img src="https://media.giphy.com/media/Bk0CW5frw4qfS/giphy.gif" style="float: right;border: 2px solid red;">
+<form>
+	<fieldset style="padding-top: 30px">
+		<legend style="font-size: 40px;border:5px solid red;color: orange;"><mark>Personal Information:</mark></legend><br>
+			<input type="text" name="fname" placeholder="First Name"><abbr title="This field is mandatory" style="color:red"> * </abbr><br><br>
+			<input type="text" name="lname" placeholder="Last Name"><br><br>
+			<input type="text" name="phone" placeholder="Phone Number(+91)" required pattern="[1-9]{1}[0-9]{9}"><abbr title="This field is mandatory" style="color:red"> * </abbr><br><br>
+			<input type="text" name="address" placeholder="Address Line 1"><br><br>
+			 <input type="text" name="address1" placeholder="Address Line 2"><br><br>
+			 <label for="city" style="color: white;font-size: 30px;">Please select your trials location:<abbr title="This field is mandatory" style="color:red"> * </abbr></label><br>
+			 <select id="city" name="City" required>
+			 	<option value="pune">Pune</option>
+			 	<option value="mumbai">Mumbai</option>
+			 	<option value="bangalore">Bangalore</option>
+			 	<option value="hyderabad">Hyderabad</option>
+			 	<option value="del">New Delhi</option>
+			 </select>
+	</fieldset>
+	<br><br>
+	
+	<fieldset>
+		<legend style="font-size: 40px;border:5px solid red;color: black;"><mark>Player Information:</mark></legend><br>
+			 <p style="color: white;font-size: 30px;">Please select your position from the drop down box: </p>
+			 <select name="state">
+			 	<option value="mh">Striker</option>
+			 	<option value="guj">Winger</option>
+			 	<option value="Andh">Midfielder</option>
+			 	<option value="mp">Defender</option>
+			 	<option value="gk">Goalkeeper</option>
+			 </select><br><br>
+			 
+			 <label for="time" style="font-size: 30px;color:white;">What time would be suitable for you?(After 12pm in the format -> hh:mm)</label><abbr title="This field is mandatory" style="color:red"> * </abbr><br><br>
+			 <input type="text" id="time" name="time" required pattern="[1-2][2-9][:][0-5][0-9]"><br>
+			 <p style="color: white;font-size: 30px;">Would you like intimation for other trials in your area?</p><br>
+			 <input type="radio" name="opt" value="yes" checked style="font-size: 40px;color:white;">Yes<input type="radio" name="opt" value="no">No
+
+
+	</fieldset><br>
+	<input type="button" onclick="alert('Thank you-your registration is complete!:)')" value="Submit!">
+</form><br>
+<address style="color: blue;">If you liked this, give me feedback @9665081065!</address>
+</body>
+
+</html>
