@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	
+}
+body
+{
+	background-image: url("durga-puja1.jpg");
+	background-size:cover;
+}
+h1
+{
+	margin :20px;
+	color: rgba(255,240,0,1);
+	font-family: Garamond;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h3
+{
+	margin :10px;
+	color : aqua;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+form
+{
+	padding:  20px 30px;
+	margin : 10px 20px;
+	background-color: rgba(240,240,240,0.5);
+	border-radius: 10px; 
+}
+input:invalid
+{
+	border: 2px dashed red;
+	background-color: lightpink;
+}
+input:valid
+{
+	border: 2px solid green;
+	background-color: lightgreen;
+}
+textarea
+{
+	background-color: lightblue;
+}

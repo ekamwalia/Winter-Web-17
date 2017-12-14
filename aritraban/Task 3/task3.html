@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style_task3.css" type="text/css" rel="stylesheet"> 
+	<title>
+		Durga Pujo Function Scheduling 
+	</title>
+</head>
+<body>
+	<h1 align="center">Durga Pujo Function Scheduling</h1>
+<h3>We will be celebrting the 21st annual Durga Utsav in our complex this year. Participants interested in performing onstage events are required to fill the following form :</h3>
+	<form id="form1">
+		Enter name of performing group :
+		<br>
+		<input type="text" name="name" required="">
+		<br><br>
+		Enter category of performance :
+		<br>
+		<select id ="List">
+			<option value="Dance">Dance</option>
+			<option value="Drama">Drama</option>
+			<option value="Singing">Singing</option>
+			<option value="Others">Others</option>
+		</select>
+		<br><br>
+		Enter preffered day for performing :
+		<br>
+		<input type="radio" name="day" value="Panchami">Panchami (14th)<br>
+		<input type="radio" name="day" value="Sasthi">Sasthi (15th)<br>
+		<input type="radio" name="day" value="Satami">Saptami (16th)<br>
+		<input type="radio" name="day" value="Asthami">Asthami (17th)<br>
+		<input type="radio" name="day" value="Nabami">Nabami (18th)<br>
+		<br><br>
+		Enter preffered time slots  :
+		<br>
+		<input type="checkbox" name="627">6:00 to 7:00 PM<br>
+		<input type="checkbox" name="627">7:00 to 8:00 PM<br>
+		<input type="checkbox" name="627">8:00 to 9:00 PM<br>
+		<input type="checkbox" name="627">9:00 to 10:00 PM<br>
+		<br><br>
+		Enter description of performance :
+		<br>
+		<textarea>
+		Enter description
+		</textarea>
+		<br><br>
+		Enter password for verification and registration :
+		<br>
+		<input type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,30}$" required>
+		<br><br><br>
+		<button type="submit" form="form1" value="Submit">Submit</button>
+		<button type="reset" form="form1" value="Reset">Reset</button>
+	</form>
+</body>
+</html>
