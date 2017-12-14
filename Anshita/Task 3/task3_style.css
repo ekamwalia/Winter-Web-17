@@ -1,0 +1,95 @@
+body
+{
+	font-family: 'Bree Serif', serif;
+	height:100%;
+	display:flex;
+	flex-direction: row;
+	letter-spacing:0.13vw;
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-attachment: fixed; 
+	background-size:100% 100%;
+	line-height: 3.5vw;
+	overflow: clip;
+}
+text
+{
+	color:white;
+}
+#leftpane
+{
+	position: relative;
+	margin:5vw 0vw 5vw 5vw;
+	padding:2vw;
+	min-height: 89.41vw;
+	width:30%;
+	background-color:black; 
+	background: rgb(0,0,0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0,0,0, .7);
+	color:white;
+	font-size: 3vw;
+	line-height: 5vw;
+}
+#rightpane
+{
+	margin:5vw 5vw 5vw 0.3vw;
+	background: rgb(0,0,0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0,0,0, .7);
+	min-height: 87.4vw;
+	width:70%;
+	padding:3vw 5vw;
+	color:white;
+}
+
+#signup
+{
+	background-color: #3f0070;
+	padding:0vw 0vw 0.2vw 0vw;
+	width:19vw;
+	border-bottom-right-radius: 4vw;
+	border-top-right-radius: 4vw;
+	background:rgba(255,255,255,0.15);
+}
+#contactus:hover
+{
+	color:#a9a9a9;
+}
+#aboutus:hover
+{
+	color:#a9a9a9;
+}
+#signup:hover
+{
+	color:#a9a9a9;
+}
+
+input, textarea,datalist
+{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus, datalist:focus
+{
+    border-color:#4B0082;
+}
+input:hover, textarea:hover, datalist:hover
+{
+	background-color: #f0f0f0
+}
+input:invalid
+{
+	background-color: #e8e8e8;
+}
+input[type=submit], input[type=reset]
+{
+	margin:0px 20px 0px 0px;
+	width:7vw;
+}
+input[type=submit]:hover , input[type=submit]:focus , input[type=reset]:focus, input[type=reset]:hover
+{
+	background-color:#a9a9a9; 
+	border-color: #a9a9a9;
+}

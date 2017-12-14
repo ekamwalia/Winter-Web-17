@@ -1,0 +1,61 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link href="task3_style.css" rel="stylesheet">
+	<title>Sign Up</title>
+</head>
+<body>
+	<section id="leftpane">
+		<div id="signup">
+			&nbspSign Up
+		</div>
+		<div id="contactus">
+			&nbspContact Us
+		</div>
+		<div id="aboutus">
+			&nbspAbout Us
+	</div>
+
+
+
+	</section>
+	<section id="rightpane">
+		<font style="font-size:3vw ">Sign Up</font>
+		<form id="form" action="submit.html" target="blank">
+			* marks compulsory fields 
+			<br>First Name:*<br>
+			<input type="text" name="firstname" placeholder="First Name" required ><br>
+			Last Name:<br>
+			<input type="text" name="lastname" placeholder="Last Name"><br>
+			Email:*<br>
+			<input type="email" name="email" placeholder="Email" required><br>
+			Date of Birth:<br>
+			<input type="date" name="bday" placeholder="Birthdate"><br>
+			Gender: <br>
+			<input list="gender" name="gender" placeholder="Gender">
+			<datalist id="gender">
+				<option value="Male">
+				<option value="Female">
+				<option value="Other">
+			</datalist><br>
+			Username:*<br>
+			<input type="text" name="username" placeholder="Username" required=""><br>
+			Password:*<br>
+			<input type="Password" name="password" placeholder="Password" required minlength="8" maxlength="30" pattern=" .*[A-Z].*[0-9].*[+-/*]|.*[A-Z].*[+-/*].*[0-9]|.*[+-/*].*[0-9].*[A-Z]|.*[0-9].*[A-Z].*[+-/*]" title="Passwords must 8 to 30 characters, atleast one uppercase character, a digit and a symbol from { + - / * }"> <br>
+			Where did you hear about us?<br>
+			Someone else <input type="checkbox" name="hear" value="Someone"><br>
+			Television ad <input type="checkbox" name="hear" value="Television"><br>
+			Newspaper ad <input type="checkbox" name="hear" value="Newspaper"><br>
+			Other(s) <input type="checkbox" name="hear" value="Other"><br>
+			If other(s), please specify:<br>
+			<textarea name="others" form="form" rows="6" cols="40" placeholder="Enter text here..."></textarea><br>
+			Would you like to receive promotional emails from us?<br>
+			Yes <input type="radio" name="promotional">
+			&nbsp&nbsp&nbspNo <input type="radio" name="promotional"><br>
+			<input type="submit" value="Submit"> <input type="reset" name="reset">
+
+
+		</form>
+	</section>
+</body>
+</html>
