@@ -1,0 +1,69 @@
+html, body{
+	
+	background-image: url('flash.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin: 0; padding: 0;
+
+
+  	
+    }
+    h1{
+    	font-family: 'Lobster';
+    	color: white;
+    	font-size: 60px;
+    }
+    h2{
+    	font-family: 'Raleway', 500;
+    }
+    form{
+    	background-color: tomato;
+
+    }
+    p{
+    	text-align: left;
+
+    }
+    #rcorners1 {
+    border-radius: 25px;
+    background: tomato;
+    padding: 20px; 
+    width: 600px;
+    height: 1420px;    
+}
+	textarea{
+		width: 100%;
+		height: 200px;
+	}
+	input[type=text], input[type=email], input[type=password], input[type=date]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    size: 20px;
+
+}
+	input[type=submit]
+	{
+		font-family: Lobster; 
+		border-radius: 20px;
+		border-style: none; 
+		width: 100%;
+		background-color: #832aff;
+		color: white;height: 70px;
+		font-size: 50px;
+		text-align: center;
+	}
+	
+.container{
+	display: flex;
+	flex-direction: column;
+  	/*justify-content: center;*/
+  	align-content: center;
+  	align-items: center;
+  	
+  	height: 1700px;
+    font-family: 'Raleway';
+    font-size: 20px; 
+    }

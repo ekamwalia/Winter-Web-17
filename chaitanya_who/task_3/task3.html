@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 3</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet3.css">
+</head>
+<body>
+	
+	
+	<div class="container" >
+		<h1>Welcome to Comic Con!</h1>
+		
+		<form id="rcorners1">
+			<h2>Register now!</h2>
+			<p>
+				<fieldset>
+					<legend>Personal information<abbr title="This field is mandatory">*</abbr></legend>
+
+					First name: <input type="text" name="name" id="fname" required>
+					Last name: <input type="text" name="name" required id="lname"><br><br>
+					
+					Gender:<input type="radio" name="gender" value="male" checked> Male
+  					<input type="radio" name="gender" value="female"> Female<br>
+  					<br>
+  					
+  					Date of birth:
+  					<input type="date" name="bday" max="1999-12-31" required><br><br>
+  					
+  					Email:
+  					<input type="Email" name="email" required placeholder="you@something.com">
+
+				</fieldset>
+				<fieldset>
+					<legend>Archives</legend>
+
+					Username:
+					<input type="text" name="usr" required placeholder="What do you wanna be called?">
+					Password:
+					<input type="Password" name="pwd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,30}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 characters" placeholder="You will use this to log in to Comic Con Web"><br><br>
+
+					Which city would you attend the Comic Con in?
+					<select name="city" style="width: 100%;" required>
+					  <option value="pune">Pune</option>
+					  <option value="mumbai">Mumbai</option>
+					  <option value="delhi">Delhi</option>
+					  <option value="calcutta">Calcutta</option>
+					</select><br><br>
+
+					Which event(s) would you like to attend?<br>
+					<input type="checkbox" name="event1" value="SneakPeek">Sneak Peek Screenings<br>
+  					<input type="checkbox" name="event2" value="NerdStrong">Becoming Nerdstrong<br> 
+  					<input type="checkbox" name="event3" value="dc_col">DC Collectibles<br>
+  					<input type="checkbox" name="event4" value="cosplay">Cosplaying 101<br>
+  					<input type="checkbox" name="event5" value="COD">Call of Duty: WW2 Zombies World Reveal<br>
+
+				</fieldset>
+				<fieldset>
+					<legend>What else?</legend>
+					What else do you think we should do this year?<br><br>
+					<textarea name="msg" placeholder="Tell us what you think!"></textarea>
+
+				</fieldset>
+
+			</p>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
