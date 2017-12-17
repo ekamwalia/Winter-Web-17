@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        #form {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            background-color: darksalmon;
+        }
+        #form > input, select, textarea, .radio-grp {
+            width: 15em;
+            margin-top: 0.5em;
+            padding-left: 5px;
+
+            font-size: 20px;
+            font-family: Lato, sans-serif;
+            line-height: 1.4em;
+
+            border: none;
+            border-radius: 5px;
+        }
+
+        .radio-grp {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: white;
+        }
+
+        #form > img {
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 5px solid darkgray;
+            border-radius: 5px;
+        }
+        .submit {
+            height: 3em;
+            background-color: #008CBA;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form" action="" onsubmit="alert('Thank you for submitting!')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Google_Developers_logo.svg" alt="GDG Logo">
+            <input type="text" name="name" placeholder="Name" required autofocus>
+            <input type="text" name="email" placeholder="Email" required>
+            <input type="text" name="number" placeholder="Phone Number" pattern="[0-9]{10}" title="Must be a 10 digit number" required>
+            <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*\W)(?=.*[a-z])(?=.*[A-Z]).{8,30}" title="Must be 8-30 characters, containing at least one number, one symbol and one uppercase and lowercase letter">
+            <textarea name="req" cols="30" rows="3" placeholder="Any requests?"></textarea>
+            <div class="radio-grp">
+                <label>
+                    <input name="track" value="track1" type="radio" required> Track 1
+                </label>
+                <label>
+                    <input name="track" value="track2" type="radio" required> Track 2
+                </label>
+            </div>
+            <select name="os" id="os">
+                <option value="" disabled selected>What OS do you use?</option>
+                <option value="windows">Windows</option>
+                <option value="macos">Mac OSX</option>
+                <option value="linux">Linux</option>
+            </select>
+
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
