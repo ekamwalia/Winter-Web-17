@@ -1,0 +1,29 @@
+body
+{
+	background-color: 66FF66;
+}
+
+h1
+{
+	color:Tomato;
+	text-align: center;
+	 margin: auto;
+}
+
+h2
+{
+	
+	color:DodgerBlue;
+	text-align: center;
+	 margin: auto;
+
+}
+img {
+    display: block;
+    margin: auto;
+    
+    width:220px;
+    height:220px;
+    border:0;
+}
+
