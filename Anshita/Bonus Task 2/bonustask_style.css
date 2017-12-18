@@ -23,7 +23,7 @@ nav a
 	transition: all 0.3s ease;
 	background:rgba(112,128,144,.08);
 	padding:0.7vw 0vw;
-	margin-right: 2px white;
+	border-right: 2px white;
  }
 nav a:hover
 {
