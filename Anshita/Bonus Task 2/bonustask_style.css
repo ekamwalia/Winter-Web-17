@@ -1,0 +1,45 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background: url("E:/Winter-Web-17/Anshita/Bonus Task 2/Images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+nav
+{
+	width:100%;
+	border-bottom: 1px grey;
+}
+nav a
+{
+	float: left;
+	display: block;
+	width:20%;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	transition: all 0.3s ease;
+	background:rgba(0,0,0,0.2);
+}
+nav a:hover
+{
+	color:grey;
+}
+nav a:active
+{
+	color:#b8b8b8;
+}
+
+#row
+{
+	display:flex;
+	flex-flow:row;
+	justify-content: center;
+}
+#row img
+{
+	height:25vw;
+	width: 25vw;
+	margin: 30px;
+}
