@@ -1,0 +1,89 @@
+html, body, figure, img {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#main-content {
+    padding: 20px 20px;
+    display: grid;
+    grid-template: auto / 1fr;
+    grid-gap: 20px 20px;
+    background-color: gray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    background-color: darkgray;
+    box-shadow: 3px 3px 2px 1px #555;
+    border-radius: 0.4em;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.cover-img {
+    flex: 1;
+    height: 30vh;
+    left: 5px;
+    bottom: 5px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: .4em .4em 0em 0em;
+}
+
+.fa-stack {
+    position: absolute;
+    bottom: 0;
+}
+
+.icon-bg {
+    color: white;
+}
+
+.fa-play:hover {
+    color: #008CBA;
+}
+
+.cover-caption {
+    flex: 1;
+    min-height: 2.5em;
+    line-height: 1em;
+    vertical-align: middle;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 0 0 .4em .4em;
+}
+
+.album {
+    font-family: 'Arvo', serif;
+    font-size: 1.2em;
+}
+
+.artist {
+    margin-top: 5px;
+    color: darkslategray;
+    font-family: 'Lato', sans-serif;
+    font-size: .8em;
+}
+
+@media only screen and (min-width: 500px)
+{
+    #main-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    #main-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
