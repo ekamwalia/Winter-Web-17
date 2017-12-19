@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Forms
+	</title>
+	<link href="task3-style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Ubuntu+Condensed" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="head">
+			<p></p>
+		</div>
+		<div class="title">
+			<p>Registration Form</p>
+		</div>
+		<div class="body">
+			<form action=" ">
+				Name:<br><input type="text" name="Name" placeholder="Barry Allen" required><br>
+				Gender: <br><input type="radio" name="gender" value="Male" checked>Male<br>
+							<input type="radio" name="gender" value="Female">Female<br>
+							<input type="radio" name="gender" value="Other">Other<br>
+				Institution:<br><select name="Institution">
+									<option value="MIT">MIT<br></option>
+									<option value="WGSHA">WGSHA<br></option>
+									<option value="SOC">SOC<br></option>
+								</select><br>
+				Email ID:<br><input type="text" name="email" placeholder="fastestmanalive@xyz.com" required><br>
+				Contact No:<br><input type="text" name="Contact No" required> <br>
+				Password:<br><input type="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+
+				<input type="submit" value="Register">
+
+			</form>
+		</div>
+</body>
+</html>

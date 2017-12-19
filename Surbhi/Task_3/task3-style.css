@@ -1,0 +1,42 @@
+body{
+	background-color: #FFE4E1;
+	height: 97vh;
+
+}
+
+	.main
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #FA8072;
+		
+
+	}
+	
+	.title
+	{
+		
+		text-align: center;
+		font-family: 'Anton', sans-serif;
+		font-size: 50px;
+
+
+	}
+
+	.body
+	{
+		background-color: pink;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		text-align: center;
+		font-size: 25px;
+		
+	}
+	
+	input:invalid{
+		border: 2px dashed maroon;
+	}
+
+	input:valid{
+		border: 2px solid black;
+	}
