@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	
+}
+body
+{
+	background-color: aqua;
+}
+h3
+{
+	padding :10px;
+	margin :10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Goudy Stout";
+	font-size:30px;
+	color: white;
+	background-color: black;
+	width :50%;
+	text-align: center;
+	border :2px solid white;
+	border-radius: 10px;
+
+}
+img
+{
+	width :200px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card1 {width: 33.33%;}
+.card2 {width: 50%;}
+.card3 {width: 100%;}
+[class*="card"] 
+{
+	float: left;
+	padding: 15px;
+	margin :0px;
+	border :1px dashed red;
+}
+@media only screen and (max-width: 900px)
+{
+	[class*="card"]
+	{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 458px)
+{
+	[class*="card"]
+	{
+		width: 100%;
+	}
+}
