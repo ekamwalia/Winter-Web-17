@@ -1,14 +1,15 @@
-*{
+*
+{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	
 }
 h3
 {
 	padding :10px;
 	margin :10px;
 	display: block;
+	text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Goudy Stout";
@@ -21,33 +22,38 @@ h3
 	border-radius: 10px;
 
 }
+.tab
+{
+	float :left;
+	padding :5px;
+	width : 20%;
+	background-color: black;
+	border : 1px solid white;
+}
 img
 {
-	width :200px;
-	height: 300px;
+	
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border :0.5px solid black;
 }
-.card1 {width: 33.33%;}
-[class*="card"] 
+.box
 {
-	float: left;
-	padding: 15px;
-	margin :0px;
+	float :left;
+	padding :5px;
+	width : 50%;
 }
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 700px)
 {
-	[class*="card"]
-	{
-		width: 50%;
-	}
-}
-@media only screen and (max-width: 458px)
-{
-	[class*="card"]
+	[class*="box"]
 	{
 		width: 100%;
+	}
+}
+@media only screen and (max-width: 450px)
+{
+	[class*="tab"]
+	{
+		width: 50%;
 	}
 }
