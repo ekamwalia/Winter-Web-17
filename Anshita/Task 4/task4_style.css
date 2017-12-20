@@ -1,15 +1,26 @@
-
-
-* {
-    box-sizing: border-box;
-}
-
-
 .col
 {
-	float:left;
-	width:33%;
-	padding:2%
+	column-gap: 2vw;
+}
+ 
+.col 
+{
+  column-count:3;
+}
+
+@media only screen and (max-width: 800px) 
+{
+  .col 
+  {
+  	column-count: 2;
+  }
+}
+@media only screen and (max-width: 400px) 
+{
+  .col 
+  {
+  column-count:1;
+  }
 }
 img
 {
@@ -19,18 +30,3 @@ img
 	box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.2), 0 1vw 2vw 0 rgba(0, 0, 0, 0.19);
 }
 
-
-@media (max-width: 800px)
- {
-    .col
-    {
-        width: 50%;
-    }
-}
-@media (max-width: 400px)
-{
-	.col
-	{
-		width:100%;
-	}
-}
