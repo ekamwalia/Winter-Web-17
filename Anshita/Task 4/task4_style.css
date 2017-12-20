@@ -1,0 +1,36 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.col
+{
+	float:left;
+	width:33%;
+	padding:2%
+}
+img
+{
+	width: 100%;
+	height: 60%;
+	margin:5% 0%;
+	box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.2), 0 1vw 2vw 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 800px)
+ {
+    .col
+    {
+        width: 50%;
+    }
+}
+@media (max-width: 400px)
+{
+	.col
+	{
+		width:100%;
+	}
+}
