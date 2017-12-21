@@ -1,0 +1,35 @@
+body
+{
+  background-color: lightgrey;
+}
+.col
+{
+	 column-gap: 3vw;
+}
+ 
+.col 
+{
+  column-count:3;
+}
+
+@media only screen and (max-width: 780px) 
+{
+  .col 
+  {
+  	column-count: 2;
+  }
+}
+@media only screen and (max-width: 420px) 
+{
+  .col 
+  {
+  column-count:1;
+  }
+}
+img
+{
+	width: 100%;
+	height: auto;
+	margin:5% 0%;
+	box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 1), 0 1vw 2vw 0 rgba(0, 0, 0, 0.5);*/
+}
