@@ -10,24 +10,27 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:white;
+	font-size: 3vw;
 }
 nav
 {
-	width:100%;
+	width: 20%;
+	position: fixed;
 	flex-flow: column;
 	line-height: 200%;
-	
+	align-items: flex-start;
+
 
 }
 nav a
 {
-	flex-grow: 1;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	color:white;
 	transition: all 0.3s ease;
 	background:rgba(0,0,0,0.1);
+	
  }
 nav a:hover
 {
@@ -42,13 +45,12 @@ nav a:active
 {
 	display:flex;
 	flex-flow:column;
-	
 	align-items: center;
 }
 #row img
 {
-	height:40vw;
-	width: 40vw;
+	height:30vw;
+	width: 30vw;
 	margin: 3vw;
 }
 #links
@@ -57,7 +59,10 @@ nav a:active
 	align-items: center;
 }
 
-
+.material-icons
+{
+	font-size: 3vw;
+}
 @media only screen and (min-width: 768px)
 {
 	#row
@@ -68,6 +73,8 @@ nav a:active
 
 	nav
 	{
+		position: static;
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
