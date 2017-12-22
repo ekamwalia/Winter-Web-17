@@ -1,0 +1,59 @@
+<DOCTYPE !HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task3</title>
+	<link rel="stylesheet" type="text/css" href="task3_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Barlow|Righteous" rel="stylesheet">
+</head>
+<body>
+	<h1>IECSE Application</h1>
+	<p style="text-align: center;">Sign up if you love anything remotely related to computers</p>
+	<p>*required</p>
+	<form>
+		<div>
+				<h2>Personal Information *</h2>
+				<p>First Name: <input type="text" name="firstname" required></p>
+				<p>Last Name: <input type="text" name="lastname" required></p>
+				<p>Registration No.: <input type="text" name="regno" required></p>
+				<p>Contact No.: <input type="text" name="contactno" required></p>
+				<p>Email id: <input type="text" name="email" required></p>
+				<p>Branch: <input type="text" name="branch" required></p>
+
+		</div>
+		<div>
+				<h2>Technical Skills</h2>
+				<p>Domain of interest (max 2): 
+					<select name="domain">
+					  <option value="Code">Code</option>
+					  <option value="Web">Web</option>
+					  <option value="App Dev">App Dev</option>
+					  <option value="Graphic Design">Graphic Design</option>
+					</select>
+				</p>
+				<p>Interested in Hashtag?:<input type="radio" name="hash" value="yes">Yes<input type="radio" name="hash" value="no">No</p>
+				<p>Languages known:<br>
+					<input type="checkbox" name="c" value="c/c++">C/C++<br>
+					<input type="checkbox" name="java" value="java">Java<br>
+					<input type="checkbox" name="python" value="python">Python<br>
+					<input type="checkbox" name="js" value="js">JavaScript<br>
+					<input type="checkbox" name="html" value="html">HTML/CSS<br>
+				</p>
+				<p>
+					Other: <input type="text" name="other">
+				</p>
+
+		</div>
+		<div>
+				<h2>HR *</h2>
+				<p>What would you do if you were Elon Musk for one day? (50 words)</p>
+				<p><textarea rows="20" cols="50" maxlength="700" required></textarea></p>
+				<p>What are technological implementations you'd make to make campus life better? (50 words)</p>
+				<p><textarea rows="20" cols="50" required maxlength="700"></textarea></p>
+				<p>Why should we take you? (50-100 words)</p>
+				<p><textarea rows="30" cols="60" required maxlength="700"></textarea></p>
+		</div>
+		<p style="text-align: center"><button>Submit</button></p>
+	</form>
+</body>
+</html>

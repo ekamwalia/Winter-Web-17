@@ -1,0 +1,65 @@
+body
+{
+	background-color: #b3b3ff;
+}
+
+h1,p
+{
+	color: #4d4d4d;
+}
+
+h1
+{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	padding-bottom: 20px;
+}
+
+h2
+{
+	font-family: 'Barlow', sans-serif;
+	padding-bottom: 15px;
+	color: #b3b3ff;
+}
+
+p
+{
+	font-size: 20;
+	font-family: 'Barlow', sans-serif;
+}
+
+div
+{
+	background-color: #4d4d4d;
+	border: none;
+	border-radius: 15px; 
+}
+
+div p
+{
+	color: #b3b3ff;
+	padding-left: 40px;
+}
+
+button
+{
+	background-color: #4d4d4d;
+    border: none;
+    border-radius: 15px;
+    color: #b3b3ff;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+form div
+{
+	padding: 30px;
+	margin: 30px;
+}
+
+div input
+{
+	padding: 10px;
+}
