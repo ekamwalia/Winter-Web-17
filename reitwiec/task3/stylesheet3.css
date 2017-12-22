@@ -1,0 +1,71 @@
+html, body{
+	
+	background-color:#C15050 ;
+	background-size: cover;
+	margin: 0; padding: 0;
+
+
+  	
+    }
+    h1{
+    	font-family: 'ObelixPro','Friends';
+    	color: #fff;
+    	font-size: 50px;
+        align-content: center;
+    }
+    h2{ color: #fff;
+    	font-family: 'CODE Bold','Raleway', 100;
+    }
+    form{ 
+        color: #fff;
+    	background-color: #A82934;
+
+    }
+    p{
+    	text-align: left;
+
+    }
+    #rcorners1 {
+    border-radius: 25px;
+    background: #007ebf/*#ffd700#90afc5*/;
+    padding: 20px; 
+    width: 600px;
+    height: 1220px;    
+}
+	textarea{
+		width: 100%;
+		height: 200px;
+	}
+	input[type=text], input[type=email], input[type=password], input[type=date]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    size: 20px;
+
+}
+	input[type=submit]
+	{
+		font-family: 'Raleway'; 
+		border-radius: 20px;
+		border-style: none; 
+		width: 100%;
+		background-color: #ffd700;
+		color: white;height: 70px;
+		font-size: 50px;
+		text-align: center;
+	}
+    
+	
+.container{
+	display: flex;
+	flex-direction: column;
+  	/*justify-content: center;*/
+  	align-content: center;
+  	align-items: center;
+  	
+  	height: 1700px;
+    font-family: 'Raleway';
+    font-size: 20px; 
+    }

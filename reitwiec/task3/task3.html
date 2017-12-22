@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 3</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet3.css">
+</head>
+<body>
+	
+	
+	<div class="container" >
+		<h1><u>WELCOME TO CENTRAL PERK!</u></h1>
+		
+		<form id="rcorners1">
+			<h2>Register now!</h2>
+			<p>
+				<fieldset>
+					<legend><b>PERSONAL INFORMATION</b><abbr title="This field is mandatory">*</abbr></legend>
+
+					First name: <input type="text" name="name" id="fname" required>
+					Last name: <input type="text" name="name" required id="lname"><br><br>
+					
+					Gender:<input type="radio" name="gender" value="male" checked> Male
+  					<input type="radio" name="gender" value="female"> Female<br>
+  					<br>
+  					
+  					Date of birth:
+  					<input type="date" name="bday" max="1999-12-31" required><br><br>
+  					
+  					Email:
+  					<input type="Email" name="email" required placeholder="you@something.com">
+
+				</fieldset>
+				<fieldset>
+					<legend><b>LOG IN DETAILS</b></legend>
+
+					Username:
+					<input type="text" name="usr" required placeholder="What's your characters' name?">
+					Password:
+					<input type="Password" name="pwd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,30}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 characters" placeholder="Key to the Central Perk"><br><br>
+
+					Which Central Perk would you like to go to?
+					<select name="city" style="width: 100%;" required>
+					  <option value="pune">Pune</option>
+					  <option value="mumbai">Mumbai</option>
+					  <option value="delhi">Delhi</option>
+					  <option value="calcutta">Calcutta</option>
+					</select><br><br>
+
+					Where would you like to stay?<br>
+					<input type="checkbox" name="locn1" value="RachelApartment">Rachel's Apartment<br>
+  					<input type="checkbox" name="locn2" value="JoeyApartment">Joey's Apartment<br> 
+  					<input type="checkbox" name="locn3" value="Uglynakedguy">Ugly Naked guy's Apartment<br>
+ 
+
+				</fieldset>
+				
+
+			</p>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
