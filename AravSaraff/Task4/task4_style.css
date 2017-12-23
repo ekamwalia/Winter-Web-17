@@ -1,0 +1,34 @@
+body
+{
+	background-color: black;
+}
+
+.row
+{
+	column-gap: 10px;
+	column-count: 1;
+}
+
+@media only screen and (min-width: 600px)
+{
+	.row
+	{
+		column-count: 2;
+	}
+}
+
+@media only screen and (min-width: 800px)
+{
+	.row
+	{
+		column-count: 3;
+	}
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	float: left;
+}
