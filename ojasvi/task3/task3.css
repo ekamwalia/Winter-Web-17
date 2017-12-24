@@ -1,0 +1,40 @@
+
+#outer
+{
+	height: 600px;
+	width: 1000px;
+	background-image:url("j1.png");
+	margin: 0px auto;
+	border:1px solid;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#form
+{
+	height: 550px;
+	width:350px;
+	opacity: 0.8;
+	background-color: white;
+	margin-left: 570px;
+	margin-top: 0px;
+	color: rgb(148,0,211)
+
+
+}
+
+.a
+{
+	margin-left: 30px;
+}
+
+h1
+{
+	margin-left: 10px;
+	font-family: 'Croissant One', cursive;
+}
+.b
+{
+	margin-left: 30px;
+}
+
