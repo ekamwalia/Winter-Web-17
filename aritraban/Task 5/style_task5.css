@@ -15,7 +15,6 @@ h3
 	font-family: Times New Roman;
 	font-size:20px;
 	margin-bottom: 0px;
-
 }
 h4
 {
@@ -37,7 +36,7 @@ img
 	margin-bottom: 10px;
 	border :0.5px solid black;
 }
-.tab,.gap,.icon
+.tab,.gap,.icon,.extra,.extra1
 {
 	height: 30px; 
 	width: 10%;
@@ -63,6 +62,10 @@ img
 	max-height: 25px;
 	border: 1px solid rgb(225,230,232);
 }
+.extra,.extra1
+{
+	display: none;
+}
 .card1 
 {
 	height: 300px; 
@@ -81,13 +84,13 @@ img
 	cursor: pointer;
 }
 
-.icon:hover
+.icon:hover,.extra1:hover
 {
 	cursor: pointer;
 	border-color: rgb(35,188,165);
 	background-color: rgb(35,188,165);
 }
-.tab:hover
+.tab:hover,.extra:hover
 {
 	color: rgb(35,188,165);
 	cursor: pointer;
@@ -148,20 +151,33 @@ img
 	}
 	[class*="gap"]
 	{
-		width:0%;
-		border:0px;
-	}
-	[class*="icon"]
-	{
-		width: 32%;
-		margin-top: 0px;
-		margin-bottom: 10px;
+		width:30%;
 	}
 	[class*="tab"]
 	{
-		width:100%;
-		margin-top: 0px;
-		margin-bottom: 10px; 
+		display: none; 
+	}
+	[class*="extra"]
+	{
+		display:inline-block;
+		width:30%;
+	}
+	[class*="extra1"]
+	{
+		display: inline-block;
+		width: 10%;
+	}
+	[class*="icon"]
+	{
+		width: 10%;
+	}
+	[class*="icon-img"]
+	{
+		width: 20px;
+	}
+	h3
+	{
+		display: none;
 	}
 }
 @media only screen and (max-width: 458px)
