@@ -1,0 +1,281 @@
+#gradient
+{
+	background:linear-gradient(to right,#42f4eb,#41b2f4,#4164f4,#4f41f4,#8241f4,#ac41f4,#e541f4,#f441d6,#f441d6,#f44197,#f4415e,#f44141,#f47c41,#f4c441,#f1f441);
+	height:2px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+
+}
+body
+{
+	margin:0px;
+	font-family: open sans;
+	background-color: #f5f5f5;
+	overflow: auto;
+	font-weight: lighter;
+    word-wrap: break-word;
+
+}
+nav
+{
+
+	display: flex;
+	position: fixed;
+	top:2;
+	background-color: #f5f5f5;
+	list-style-type: none;
+	padding: 0px 20px;
+	width: 100%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    z-index: 2;
+}
+.one
+{
+	font-size: 1.5vw;
+	letter-spacing: 0.5px;
+	padding:0.5vw;
+	width:150px;
+}
+.one a
+{
+	color:grey;
+}
+
+#menuic
+{
+	display: none;
+}
+a
+{
+	text-decoration: none;
+	color:#202020;
+}
+#leftpane a:hover
+{
+	color:#50BCB6;
+}
+nav a
+{
+	display: block;
+	margin:0px 23px;
+    font-weight: 400;
+    color:#313131;
+
+}
+.left
+{
+	font-weight: 600;
+}
+.left:hover
+{
+	color:#50BCB6;
+}
+.profile
+{
+	margin-right:0px;
+}
+.group
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+#space
+{
+	width:30%;
+}
+.recommended
+{
+	width: auto;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-bottom: 3px solid #50BCB6;
+}
+
+#main
+{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:100;
+}
+#leftpane
+{
+	width:150px;
+	height:80%;
+	left:0;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	font-size: 12px;
+	color:grey;
+	padding-left:40px;
+	padding-bottom: 5px;
+}
+
+#leftpane a
+{
+	color:grey;
+}
+#more
+{
+	background:none;
+	border:none;
+	color:grey;
+	font-family: open sans;
+	font-size: 12px;
+}
+#more:hover
+{
+	color:#38ACAC;
+}
+#menucont
+{
+	display:none;
+	position: absolute;
+	bottom:15;
+	background-color: white;
+	height: 300px;
+	width:200px;
+	left:30;
+
+}
+#menu:hover #menucont
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding:6px 0px;
+	 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+#menucont a
+{
+	display: flex;
+	height:14.28%;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 30px;
+	width:170px;
+	font-weight: 550;
+	color:#484848;
+	font-size:15px;
+
+}
+#menucont a:hover
+{
+	color:white;
+	background:#50BCB6
+
+}
+
+#rightpane
+{
+	height: 100%;
+	margin-left: 190px;
+}
+
+.cards
+{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.card
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+	width:250px;
+	height:420px;
+	border:1px solid gainsboro;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+#top img
+{
+	width:100%;
+}
+
+#mid
+{
+	padding:2px 10px 25px 20px;
+}
+
+#bottom
+{
+	margin: 0px 20px;
+	border-top: 1px solid gainsboro;
+	padding:10px 0px;
+	flex-basis: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#bottom a
+{
+	color:#A0A0A0;
+}
+
+#bottom a:hover
+{
+	color:#606060;
+}
+@media only screen and (max-width: 1300px)
+{
+	.cards
+	{
+		column-count: 3;
+	}
+}
+
+@media only screen and (max-width: 1040px)
+{
+	#leftpane
+	{
+		display: none;
+	}
+	#rightpane
+	{
+		margin-left: 20px;
+
+	}
+	.one
+	{
+		display: none;
+	}
+	#menuic
+	{
+		display: block;
+	}
+	
+}
+@media only screen and (max-width: 730px)
+{
+	
+	
+	.left, .mail, .person, #rec
+	{
+		display:none;
+	}
+	#space
+	{
+		width:100%;
+	}
+
+}
