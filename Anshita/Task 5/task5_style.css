@@ -289,5 +289,17 @@ nav a
 		font-weight:600;
 		padding-left: 20px; 
 	}
-
+	
+	.right
+	{
+		display: row;
+		flex-direction: row-reverse;
+	}
+}
+@media only screen and (max-width: 523px)
+{
+	.card
+	{
+		width:70%;
+	}
 }
