@@ -1,6 +1,6 @@
 #gradient
 {
-	background:linear-gradient(to right,#42f4eb,#41b2f4,#4164f4,#4f41f4,#8241f4,#ac41f4,#e541f4,#f441d6,#f441d6,#f44197,#f4415e,#f44141,#f47c41,#f4c441,#f1f441);
+	background:linear-gradient(to right,#afecc3,#9fddc2,#8eccc0,#93afaf, #b0888e,#c2717c, #d45c68,#da7466,#df8a65,#e6a764,#ecbf63);
 	height:2px;
 	width: 100%;
 	position: fixed;
@@ -32,6 +32,7 @@ nav
     align-items: center;
     border-bottom: 1px solid gainsboro;
     z-index: 2;
+    font-size: 14px;
 }
 .one
 {
@@ -66,6 +67,15 @@ nav a
     color:#313131;
 
 }
+
+.right
+{
+	margin:10px;
+}
+.mail
+{
+	margin-right: 10px;
+}
 .left
 {
 	font-weight: 600;
@@ -73,10 +83,6 @@ nav a
 .left:hover
 {
 	color:#50BCB6;
-}
-.profile
-{
-	margin-right:0px;
 }
 .group
 {
@@ -93,7 +99,7 @@ nav a
 
 #space
 {
-	width:30%;
+	width:40%;
 }
 .recommended
 {
@@ -126,6 +132,7 @@ nav a
 	color:grey;
 	padding-left:40px;
 	padding-bottom: 5px;
+	line-height: 10px;
 }
 
 #leftpane a
