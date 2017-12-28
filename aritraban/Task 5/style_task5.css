@@ -6,13 +6,14 @@
 }
 body
 {
-	background-color: rgb(225,230,232);
+	background-color: rgb(240,240,240);
 }
 h2
 {
-	padding-top: 450px;
-	font-size: 20px;
-	font-family: Times New Roman;
+	padding-top: 490px;
+	font-size: 15px;
+	font-family: "Arial";
+	color: rgb(150,150,150);
 	padding-left: 10px;
 
 }
@@ -20,8 +21,9 @@ h3
 {
 	padding :10px;
 	margin :30px;
-	font-family: Times New Roman;
-	font-size:20px;
+	font-family: "Courier New";
+	font-size:40px;
+	color: rgb(100,100,100);
 	margin-bottom: 0px;
 }
 h4
@@ -44,25 +46,62 @@ img
 	margin-bottom: 10px;
 	border :0.5px solid black;
 }
+li
+{
+	display: inline;
+	font-size: 15px;
+	font-family: "Arial";
+	text-transform: uppercase;
+	color: rgb(150,150,150);
+	padding-left: 10px;
+}
+.top
+{
+	height: 34px;
+	width: 100%;
+	border: 1px solid rgb(240,240,240);;
+	background: linear-gradient(to right,aqua,violet,red,yellow);
+}
+.save
+{
+	float: left;
+	padding-bottom: 0px;
+}
+.more
+{
+	float: right;
+}
+li:hover
+{
+	color: rgb(35,188,165);
+	cursor: pointer;
+}
 .tab,.gap,.icon,.extra,.extra1
 {
 	height: 30px; 
 	width: 10%;
-	margin: 30px 0px; 
+	margin-bottom: 30px; 
 	float: left;
 	text-align: center;
 	font-size: 15px;
 	font-family: Times New Roman;
 	padding: 3px;
-	border-bottom: 2px solid rgb(140,153,169);
+	border-bottom: 1px solid rgb(200,200,200);
 }
 .gap
 {
-	width: 61%;
+	width: 51%;
 }
 .icon
 {
 	width :3%;
+}
+.tab-gp
+{
+	width: 70px;
+	height: 25px;
+	border: 1px solid rgb(225,230,232);
+
 }
 .icon-img
 {
@@ -73,10 +112,10 @@ img
 .sidebar
 {
 	height: 1000px;
-	width :20%;
-	margin: 1px dashed red;
+	width :17%;
 	float: left;
 	clear: left;
+
 }
 .extra,.extra1
 {
@@ -85,16 +124,20 @@ img
 .card1 
 {
 	height: 300px; 
-	width: 15%;
+	width: 18%;
 	float: left;
 	text-align: center;
-	font-size: 25px;
-	font-family: Times New Roman;
 	padding: 10px;
 	margin :6px;
 	background-color: white;
 }
-.card1:hover
+h5
+{
+	padding: 10px;
+	font-size: 15px;
+	font-family: "Arial";
+}
+h5:hover
 {
 	color: rgb(35,188,165);
 	cursor: pointer;
@@ -129,7 +172,7 @@ img
 	}
 	[class*="gap"]
 	{
-		width:52%;
+		width:40%;
 	}
 	[class*="icon"]
 	{
@@ -143,6 +186,10 @@ img
 	{
 		width: 20px;
 	}
+	[class*="tab-gp"]
+	{
+		width: 70px;
+	}
 }
 @media only screen and (max-width: 900px)
 {
@@ -152,7 +199,7 @@ img
 	}
 	[class*="gap"]
 	{
-		width:43%;
+		width:28%;
 	}
 	[class*="icon"]
 	{
@@ -169,6 +216,10 @@ img
 	[class*="sidebar"]
 	{
 		display: none;
+	}
+	[class*="tab-gp"]
+	{
+		width: 70px;
 	}
 }
 @media only screen and (max-width: 600px)
