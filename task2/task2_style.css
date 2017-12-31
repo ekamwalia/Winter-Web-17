@@ -6,8 +6,8 @@ body
 
 
 #head h1
-{
-	text-align: center;
+{      
+        text-align: center;
 	font-family: 'Berkshire Swash', cursive;
         color: lavender; 
  }
@@ -18,7 +18,21 @@ body
         color: lavender; 
 }
 
-div
+#head 
+{
+	 background-image: url("221.jpg");
+	 
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;  
+        min-height: 500px;
+	width: 1300px;
+        padding: 70px;
+	margin: 10px;
+	overflow: auto;	
+		
+}
+#s1,#s2,#s3,#s4
 {
 	background-color: ;
 	width: 1100px;
